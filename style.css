@@ -1,41 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
-  header{background-color:rgb(7, 68, 148);
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
-  font-size: 250%;
-  }
-  .gatos {
-  width: 20%;
-  height: 20%;
+.im1{
   margin: auto;
   display: block;
-  }
- .gatosss {
-    width: 20%;
-    height: 20%;
-    margin: auto;
-    display: block;
- }
- .gatossss {
-  width: 20%;
-  height: 20%;
-  margin: auto;
-  display: block;
+width: 41vw;
+background-color: rgb(150, 231, 95);
 }
 
-  .gatoss {background-color: rgb(103, 179, 245);
-  color: rgb(255, 255, 255);
-  }
-  .TEX-GATO{
-    display: inline-block; 
-   justify-content: space-around;
-   height: 50px;
-  font-size: 125%;
+.horta{background-color: rgb(150, 231, 95);
+  color: rgb(0, 0, 0);
+  width: 100vw;
+  justify-content: space-around;
   display: flex;
   align-items: center;
+  font-size: 150%;
+}
+
+.edu{
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+.Eduardo{
+  font-size: 300%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(150, 231, 95);
+}
+
+/*layout fluido*/
+
+
+.e{
+  color: rgb(0, 0, 0);
+background-color:rgb(70, 70, 70);
+
+}
+.di{
+  text-align: center;
+  background-color: rgb(150, 231, 95);
+}
+@media (max-width:500000000000px) { 
+  .im1{   margin: auto;
+      display: block;
+  width: 41vw;
+  background-color: rgb(150, 231, 95);}
+
+  
+  .horta {background-color: rgb(150, 231, 95);
+      color: rgb(0, 0, 0);
+      width: 100vw;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      font-size: 2vw;
+  }
+  
+  .edu{
+      font-size: 150vw;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  }
+  
+  
+  .Eduardo{
+      font-size: 300vw;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  }
+  
+  /*layout fluido*/
+  
+  
+  .e{
+      color: rgb(0, 0, 0);
+  background-color:rgb(70, 70, 70);
+  
+  }
+  .di{
+      text-align: center;
+  }
+}
+
+@media (min-width:1px)   {
+  .im1{   margin: auto;
+      display: block;
+  width: 41vw;
+  background-color: rgb(150, 231, 95);}
+  
+  
+  
+  .horta{background-color: rgb(150, 231, 95);
+      color: rgb(0, 0, 0);
+      width: 100vw;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      font-size: 2vw;
+  }
+  
+  .edu{
+      font-size: 2vw;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  }
+  
+  
+  .Eduardo{
+      font-size: 300vw;
+      color: rgb(0, 0, 0);
+      align-items: center;
+  }
+  
+  /*layout fluido*/
+  
+  
+ 
+  
+  }
+  .di{
+      text-align: center;
+      font-size: 2vw;
   }
